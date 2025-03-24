@@ -1,7 +1,14 @@
-export function Main(){
-  return(
-    <h1>
-      Main
-    </h1>
-  )
+export function Main() {
+  return (
+    <main>
+      <h1>Fun facts about React</h1>
+      <ul className="factsList">
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 200k stars on Github</li>
+        <li>Maintained by Meta</li>
+        <li>Powers thousands of enterprise apps, including mobile apps</li>
+      </ul>
+    </main>
+  );
 }
