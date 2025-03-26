@@ -2,7 +2,7 @@ export function Nav(){
   return(
     <header>
       <nav>
-        <img src="https://www.pngwing.com/en/free-png-cgbgg" />
+        <img src="/src/assets/react.png" />
         <span>ReactFacts</span>
       </nav>
       </header>
