@@ -1,8 +1,9 @@
+import reactLogo from "../src/assets/react.png";
 export function Nav(){
   return(
     <header>
       <nav>
-        <img src="./src/assets/react.png" />
+        <img src={reactLogo} />
         <span>ReactFacts</span>
       </nav>
       </header>
